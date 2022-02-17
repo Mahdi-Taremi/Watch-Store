@@ -6,6 +6,7 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Watch Store</title>
     <link rel="stylesheet" href="/CSS/style.css">
+    <script src="https://kit.fontawesome.com/5a42585dff.js" crossorigin="anonymous"></script>
 </head>
 <body>
 <div class="header">
@@ -14,9 +15,6 @@
     </div>
     <div class="search">
         <input type="text" class="search-form">
-    </div>
-    <div class="topnav">
-        Menu
     </div>
     <div class="list-filter">
         <ul>
@@ -39,7 +37,7 @@
                 <div class="product_footer">
                     <h3 class="product_title f">Rolex Men Model : 984003</h3>
                     <h4 class="product_price f">97$</h4>
-                    <span class="product_btn_buy f">Buy</span>
+                    <button class="product_btn_buy f" id="button">Buy</button>
                 </div>
             </div>
         </div>
@@ -51,7 +49,7 @@
                 <div class="product_footer">
                     <h3 class="product_title f">Rolex Men Model : 984003</h3>
                     <h4 class="product_price f">97$</h4>
-                    <span class="product_btn_buy f">Buy</span>
+                    <span class="product_btn_buy f" >Buy</span>
                 </div>
             </div>
         </div>
@@ -69,6 +67,37 @@
         </div>
     </div>
 </div>
+
+
+
+<div class="modual">
+    <div class="header_modal">
+            <h3 class="header_modal_title">Cart</h3>
+    </div>
+    <div class="body_modal">
+        <div class="body_modal_computing">
+            <i class="fa-solid fa-plus"></i>
+            1
+            <i class="fa-solid fa-minus"></i>
+        </div>
+        <ul class="body_modal_list">
+            <li>Rolex Men Model : 984003</li>
+            <li>97$</li>
+        </ul>
+        <img src="/asset/img/Rolex/Rolex-Men1.jpg">
+    </div>
+
+
+    <div class="footer_modal">
+        <ul class="footer_modal_list">
+            <li class="footer_modal_total">
+              Total Price :  97$
+            </li>
+            <i class="fa-solid fa-cart-shopping"></i>
+        </ul>
+    </div>
+</div>
+
     <script type="module" src="/JS/coreStore.js"></script>
 </body>
 </html>
