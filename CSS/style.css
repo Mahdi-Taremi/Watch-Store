@@ -147,12 +147,17 @@ body {
 /*Product*/
 .products {
   display: flex;
-  /* justify-content: flex-start;
-  align-content: center; */
+  justify-content: center;
+  align-content: center;
   flex-wrap: wrap;
   row-gap: 1rem;
   column-gap: 1rem;
-  margin: 1rem;
+  margin-top: 2rem;
+}
+
+.body{
+max-width: 1080px;
+margin: 0 auto;
 }
 
 .product {
